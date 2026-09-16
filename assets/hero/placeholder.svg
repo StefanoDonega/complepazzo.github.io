@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400" role="img" aria-label="Placeholder foto">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3420"/>
+      <stop offset="38%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#0c0806"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="2400" fill="url(#sky)"/>
+</svg>

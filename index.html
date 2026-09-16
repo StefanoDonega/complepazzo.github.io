@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Stefano — 30 anni</title>
+    <meta name="description" content="Sei invitato al 30esimo di Stefano. Party, non cerimonia." />
+    <meta property="og:title" content="Stefano — 30 anni" />
+    <meta property="og:description" content="Sei invitato. Niente eleganza, solo festa." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-label="Invito">
+        <div class="hero-media">
+          <img
+            class="hero-photo"
+            src="assets/hero/hero.jpg"
+            alt=""
+            width="567"
+            height="567"
+          />
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="hero-kicker">Sabato 10 ottobre</p>
+          <h1 class="hero-name">Trentazzi pazzi</h1>
+          <div class="hero-tagline">
+            <p class="hero-age">Ovviamente a tema</p>
+            <p class="hero-aside">(pensavate di scamparla, e invece)</p>
+          </div>
+          <p class="hero-date">Save the date</p>
+        </div>
+      </section>
+
+      <section class="band" aria-label="Dettagli della festa">
+        <div class="pattern" data-pattern aria-hidden="true"></div>
+        <div class="poster-stack">
+          <article class="poster-card" aria-labelledby="dove-title">
+            <h2 id="dove-title" class="poster-title">Dove & quando</h2>
+            <ul class="poster-list">
+              <li>
+                sempre solito posto <br>(pigia
+                <a
+                class="poster-link"
+                href="https://www.google.com/maps/search/?api=1&query=45.393139,10.983917"
+                target="_blank"
+                rel="noopener noreferrer"
+                >qui</a> per info)
+              </li>
+              <li>
+                Dalle ore 19:00
+                
+              </li>
+            </ul>
+          </article>
+          <article class="poster-card" aria-labelledby="menu-title">
+            <h2 id="menu-title" class="poster-title">Menu</h2>
+            <ul class="poster-list">
+              <li>Robine per aperitivo</li>
+              <li>Cibo e alternative veg 🌱</li>
+              <li>Dolcini vari</li>
+              <li>Bire, spritz e altre pozioni magiche</li>
+            </ul>
+          </article>
+          <article class="poster-card poster-card--themes" aria-labelledby="theme-title">
+            <p class="poster-kicker" data-theme-kicker>Tema della serata</p>
+            <h2 id="theme-title" class="poster-title" data-theme-title>
+              Cose che mi piacciono (yea)
+            </h2>
+            <p class="poster-text" data-theme-lead>
+              Scegli un tema e dai libero sfogo alla tua fantasia!
+            </p>
+            <ol class="theme-list" data-theme-list></ol>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <audio id="maps-sfx" src="assets/audio/fah-echo.mp3" preload="auto" hidden></audio>
+    <script src="js/main.js?v=4"></script>
+  </body>
+</html>
